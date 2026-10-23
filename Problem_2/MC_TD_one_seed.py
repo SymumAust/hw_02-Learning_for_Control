@@ -119,7 +119,7 @@ for trajectory in trajectories:
             - (phi(e) @ theta_td)
         )
 
-        alpha = 0.1 / (1 + t / 1000.0)**0.6
+        alpha = 0.1 / (1 + t / 10000)**0.6
 
         theta_td += alpha * delta * phi(e)
 
