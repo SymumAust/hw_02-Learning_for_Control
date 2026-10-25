@@ -1,3 +1,8 @@
+# Simply stored the output of the policy improvement algorithm in a numpy array and plotted the policies across iterations;
+
+# Just for convenience.
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
