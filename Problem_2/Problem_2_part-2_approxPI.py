@@ -17,7 +17,7 @@ NUM_TRAJECTORIES = 100
 STEPS_PER_TRAJECTORY = 60
 
 # Use the same five seeds for MC and TD.
-SEEDS = [42, 123, 2026, 7, 99]
+SEEDS = [2026, 42, 123, 7, 99]
 
 # Initial policy, with states ordered from -4 to 4.
 MU0 = np.array([1, 0, 0, 0, 0, 0, 0, 0, -1])
